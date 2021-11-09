@@ -15,7 +15,7 @@ public class DoctorReaderBuffer implements DoctorReader{
     public List<Doctor> readCsvWithDoctors(String absolutePath) throws IOException {
         List<Doctor> doctors = new ArrayList<>();
 
-        //try with resources - look to lecture or to goggle why we use it - it is a little bit different than normal try-catch
+        //try with resources - look to lecture or to google why we use it - it is a little bit different than normal try-catch
         try (BufferedReader br = new BufferedReader(new FileReader(absolutePath))) {
             //here we read a line by line, not whole file
             String doctorLine = br.readLine();
