@@ -1,4 +1,4 @@
-package hospital;
+package org.example.hospital;
 
 public enum Specialization {
     CARDIOLOGIST("cardiologist"), MIDWIFE("midwife"), INTERNIST("internist");

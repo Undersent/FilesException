@@ -1,14 +1,10 @@
-import hospital.HospitalRunner;
-import reader.DoctorReader;
-import reader.DoctorReaderFiles;
+package org.example;
+
+import org.example.hospital.HospitalRunner;
+import org.example.reader.DoctorReader;
+import org.example.reader.DoctorReaderFiles;
 
 import java.io.*;
-import java.lang.reflect.Field;
-import java.net.URISyntaxException;
-import java.net.URL;
-import java.nio.charset.StandardCharsets;
-import java.nio.file.Files;
-import java.nio.file.Path;
 
 public class Main {
 

@@ -1,4 +1,4 @@
-package hospital;
+package org.example.hospital;
 
 import java.util.Objects;
 

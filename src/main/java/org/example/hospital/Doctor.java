@@ -1,6 +1,4 @@
-package hospital;
-
-import java.io.Serializable;
+package org.example.hospital;
 
 public class Doctor extends Employee {
     private int experienceYears;

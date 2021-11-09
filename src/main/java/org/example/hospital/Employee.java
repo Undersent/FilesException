@@ -1,4 +1,4 @@
-package hospital;
+package org.example.hospital;
 
 public abstract class Employee {
     protected String name;

@@ -1,9 +1,8 @@
-package reader;
+package org.example.reader;
 
-import hospital.Doctor;
-import hospital.Specialization;
+import org.example.hospital.Doctor;
+import org.example.hospital.Specialization;
 
-import javax.print.Doc;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;

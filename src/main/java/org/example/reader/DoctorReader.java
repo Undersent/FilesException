@@ -1,6 +1,6 @@
-package reader;
+package org.example.reader;
 
-import hospital.Doctor;
+import org.example.hospital.Doctor;
 
 import java.io.IOException;
 import java.util.List;

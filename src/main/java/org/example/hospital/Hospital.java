@@ -1,4 +1,4 @@
-package hospital;
+package org.example.hospital;
 
 public class Hospital {
 
@@ -23,7 +23,7 @@ public class Hospital {
 
             index++;
             if (index >= employees.length) {
-                throw new TooManyEmployeesException("!!attention!!! Too many employees. Make hospital bigger");
+                throw new TooManyEmployeesException("!!attention!!! Too many employees. Make com.example.hospital bigger");
             }
         } while(actualEmployee != null);
 
